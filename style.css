@@ -18,11 +18,11 @@ a {
 }
 .nav {
   display: inline-block;
-  margin-left: 4rem;
-  margin-right: 4rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
   margin-right: 5%;
   color: #A8A8A8;
-  font-size: 140%;
+  font-size: 120%;
   font-family: "Franklin Gothic Medium";
   font-weight: normal;
   margin-top: 2%;
@@ -31,9 +31,8 @@ a {
    font-family: Impact;
    font-size: 1200%;
    color: #1CFFCC;
-  text-shadow: 0 0 100px #00FFE6;
+  text-shadow: 0 0 100px rgba(63,107,120, .9);
 }
-
 .left {
   margin-left: 20rem;
   margin-top: 15rem;
@@ -44,6 +43,7 @@ a {
   font-size: 150%;
   margin-left: .3%;
   color: #848484;
+  font-family:  "Franklin Gothic Medium";
 }
 .elie {
   width: 30%;
@@ -53,10 +53,11 @@ a {
   margin-top: 4%;
 }
 .line {
-  width: 3%;
-  margin-left: 69.7%;
+  width: 2%;
+  margin-left: 72.6%;
   margin-top: -.1%;
-  padding-top: .4%;
+  padding-top: .3%;
   background-color: #1CFFCC;
   border: none;
 }
+ /* #00FFE6; */
