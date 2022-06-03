@@ -1,6 +1,7 @@
 html, body {
     margin: 0;
     padding: 0;
+    background: linear-gradient(0.35turn, #4A4D5E, #000000);
 }
 a {
   text-decoration: none;
@@ -9,14 +10,14 @@ a {
   width: 100%;
   display: block;
   text-align: left;
-  position: absolute;
   margin-left: 4%;
+  z-index: 1;
+  position: absolute;
 }
 .nav {
   display: inline-block;
-  margin-left: 1rem;
-  margin-right: 1rem;
-  margin-right: 5%;
+  margin-left: 3rem;
+  margin-right: 3rem;
   color: #A8A8A8;
   font-size: 100%;
   font-family: "Franklin Gothic Medium";
@@ -41,9 +42,33 @@ a {
   color: #848484;
   font-family:  "Franklin Gothic Medium";
 }
-.line {
+.home #line {
   width: 2%;
-  margin-left: .7rem;
+  margin-left: 2.7rem;
+  margin-top: -.1%;
+  padding-top: .3%;
+  background-color: #1CFFCC;
+  border: none;
+}
+.web #line {
+  width: 2%;
+  margin-left: 11.3rem;
+  margin-top: -.1%;
+  padding-top: .3%;
+  background-color: #1CFFCC;
+  border: none;
+}
+.art #line {
+  width: 2%;
+  margin-left: 19.4rem;
+  margin-top: -.1%;
+  padding-top: .3%;
+  background-color: #1CFFCC;
+  border: none;
+}
+.contact #line {
+  width: 2%;
+  margin-left: 28.5rem;
   margin-top: -.1%;
   padding-top: .3%;
   background-color: #1CFFCC;
@@ -54,6 +79,7 @@ a {
    height: 100%;
    background: linear-gradient(0.35turn, #4A4D5E, #000000);
    padding-bottom: 5%;
+    z-index: -1;
  }
  .name {
    font-family: Impact;
