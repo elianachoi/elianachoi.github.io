@@ -3,10 +3,7 @@ html, body {
     padding: 0;
 
 }
-.entire {
-  background: linear-gradient(0.35turn, #4A4D5E, #000000);
-  padding-bottom: 50%;
-}
+
 a {
   text-decoration: none;
 }

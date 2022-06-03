@@ -1,0 +1,24 @@
+.meet {
+  font-family: Impact;
+  font-size: 500%;
+  text-align: right;
+}
+.bio {
+  text-align: left;
+  font-size: 120%;
+}
+.image {
+  width: 25%;
+  margin-left: 10%;
+  float: left;
+}
+.entire {
+  margin-top: 8%;
+  position: absolute;
+  margin-left: 5%;
+}
+.right {
+  width: 30%;
+  display: inline-block;
+  margin-left: 10%;
+}
