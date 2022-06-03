@@ -130,7 +130,7 @@ a {
 
 }
 .letter {
-  font-family: Impact;
+  font-family: Impact, "Franklin Gothic Bold", "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", "sans serif";
   color: #1CFFCC;
   font-size: 11vw;
   line-height: 9vw;
