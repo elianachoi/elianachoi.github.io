@@ -3,20 +3,20 @@ particlesJS('particles-js',
   {
     "particles": {
       "number": {
-        "value": 50,
+        "value": 30,
         "density": {
           "enable": true,
           "value_area": 800
         }
       },
       "color": {
-        "value": "#ffffff"
+        "value": "#00ffb3"
       },
       "shape": {
-        "type": "none",
+        "type": "circle",
         "stroke": {
           "width": 0,
-          "color": "#000000"
+          "color": "#00ffb3"
         },
         "polygon": {
           "nb_sides": 5
@@ -38,7 +38,7 @@ particlesJS('particles-js',
         }
       },
       "size": {
-        "value": 5,
+        "value": 2,
         "random": true,
         "anim": {
           "enable": false,
