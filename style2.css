@@ -1,11 +1,10 @@
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(700px, 1fr));
   grid-gap: .5rem;
   position: absolute;
   margin-top: 6%;
   width: 100%;
-  margin-left: 20%;
 }
 .grid > div {
   background: white;
@@ -94,5 +93,5 @@
 }
 .entire {
   background: linear-gradient(0.35turn, #4A4D5E, #000000);
-  padding-bottom: 50%;
+  padding-bottom: 55%;
 }
