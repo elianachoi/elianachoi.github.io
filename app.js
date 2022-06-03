@@ -1,10 +1,12 @@
 particlesJS('particles-js',
+
   {
     "particles": {
       "number": {
-        "value": 20,
+        "value": 50,
         "density": {
-          "value_area": 500
+          "enable": true,
+          "value_area": 800
         }
       },
       "color": {
@@ -13,20 +15,20 @@ particlesJS('particles-js',
       "shape": {
         "type": "none",
         "stroke": {
-          "width": 100,
-          "color": "#009C79"
+          "width": 0,
+          "color": "#000000"
         },
         "polygon": {
-          "nb_sides": 1
+          "nb_sides": 5
         },
         "image": {
           "src": "img/github.svg",
-          "width": 1000,
+          "width": 100,
           "height": 100
         }
       },
       "opacity": {
-        "value": 0.2,
+        "value": 0.5,
         "random": false,
         "anim": {
           "enable": false,
@@ -36,7 +38,7 @@ particlesJS('particles-js',
         }
       },
       "size": {
-        "value": 3,
+        "value": 5,
         "random": true,
         "anim": {
           "enable": false,
@@ -47,9 +49,9 @@ particlesJS('particles-js',
       },
       "line_linked": {
         "enable": true,
-        "distance": 300,
-        "color": "#009C79",
-        "opacity": 1,
+        "distance": 50,
+        "color": "#00ffb3",
+        "opacity": 3,
         "width": 1
       },
       "move": {
@@ -74,7 +76,7 @@ particlesJS('particles-js',
           "mode": "repulse"
         },
         "onclick": {
-          "enable": false,
+          "enable": true,
           "mode": "push"
         },
         "resize": true
@@ -91,7 +93,7 @@ particlesJS('particles-js',
           "size": 40,
           "duration": 2,
           "opacity": 8,
-          "speed": 1
+          "speed": 3
         },
         "repulse": {
           "distance": 200
@@ -105,6 +107,14 @@ particlesJS('particles-js',
       }
     },
     "retina_detect": true,
+    "config_demo": {
+      "hide_card": false,
+      "background_color": "#b61924",
+      "background_image": "",
+      "background_position": "50% 50%",
+      "background_repeat": "no-repeat",
+      "background_size": "cover"
+    }
   }
 
 );
